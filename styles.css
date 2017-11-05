@@ -146,6 +146,7 @@
     font-family: 'Open Sans', Sans-Serif;
     text-align: center;
     position: relative;
+    padding-top: 50px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,100%);
