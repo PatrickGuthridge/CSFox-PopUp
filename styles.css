@@ -168,11 +168,11 @@ Alternate code below
     cursor: pointer;
 }
 #chrome::before{
-    content: url("chrome.png");
+    content: url("chrome.svg");
 }
 #opera::before{
-    content: url("opera.png");
+    content: url("opera.svg");
 }
-#edge::before{
+/*#edge::before{
     content: url("edge.png");
-}
+}*/
