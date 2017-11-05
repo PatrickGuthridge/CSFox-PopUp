@@ -51,6 +51,7 @@
     font-size: 22px;
     animation: fadeIn 0.5s ease-out;
 }
+/* Use these animations when Edge support is implemented, also uncomment the relative HTML components
 .fc1{
     animation: fadeIn 0.5s backwards 2s ease-out;
 }
@@ -63,6 +64,20 @@
 .fc4{
     animation: fadeIn 0.5s backwards 3.8s ease-out;
 }
+Alternate code below
+*/
+
+.fc1{
+    animation: fadeIn 0.5s backwards 2s ease-out;
+}
+.fc2{
+    animation: fadeIn 0.5s backwards 2.5s ease-out;
+}
+.fc4{
+    animation: fadeIn 0.5s backwards 3.25s ease-out;
+}
+
+
 #frontText{
     transition: padding 1s;
     top: 50%;
