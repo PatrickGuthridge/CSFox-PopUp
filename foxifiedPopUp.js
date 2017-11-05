@@ -67,4 +67,10 @@ function newTab(url){
     var tab = window.open(url, '_blank');
     tab.focus();
 }
+function closeDialog(){
+    hide(popUpBox);
+    setTimeout(function(){
+        popUpBox.outerHTML = "";
+    }, 1000);
+}
 document.addEventListener("DOMContentLoaded", init);
