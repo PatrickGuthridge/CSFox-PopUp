@@ -104,7 +104,7 @@ Alternate code below
     box-shadow: 10px 3px 55px rgba(100,115,107,0.6);
     background: rgba(244,248,248,0.91);
     animation: popUp 0.6s backwards 0.1s ease;
-    transition: width 0.7s, height 0.7s;
+    transition: width 0.7s, height 0.7s, opacity 0.6s;
 }
 .full{
     width: 1000px !important;
