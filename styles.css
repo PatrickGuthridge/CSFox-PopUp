@@ -29,15 +29,15 @@
 }
 #close{
     float: right;
-    transition: transform 0.1s, filter 0.3s;
+    transition: transform 1.2s, filter 0.3s;
 }
 #close:hover{
     cursor: pointer;
-    transfrom: scale(0.9);
+    transfrom: scale(0.75);
     filter: invert(100%);
 }
 #close:active{
-    transform: scale(0.5);
+    transform: scale(3);
 }
 .xCenter{
     position: relative;
@@ -125,7 +125,7 @@ Alternate code below
 }
 #nxt{
     animation: popUp 1s backwards 4.3s;
-    transition: opacity 1s, filter 0.25s, transform 0.15s;
+    transition: opacity 1s, filter 0.3s, transform 0.4s;
     position: relative;
     left: 50%;
     top: 50%;
