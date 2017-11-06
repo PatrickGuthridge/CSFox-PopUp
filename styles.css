@@ -124,7 +124,7 @@ Alternate code below
     height: 660px !important;
 }
 #nxt{
-    animation: popUp 1s backwards 4.3s;
+    animation: popUp 1s backwards 4.1s;
     transition: opacity 1s, filter 0.3s, transform 0.25s;
     position: relative;
     left: 50%;
