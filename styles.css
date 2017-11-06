@@ -136,19 +136,7 @@ Alternate code below
     filter: invert(100%);
     transform: translate(-50%,-55%) scale(0.98);
 }
-#devText, #nightlyText{
-    display: none;
-    position: fixed;
-    padding-right: 70px;
-    padding-left: 70px;
-    font-family: 'Open Sans', Sans-Serif, Serif;
-    font-size: 19px;
-    text-align: center;
-    padding-top: 175px;
-    opacity: 0;
-    transition: opacity 1.2s;
-    color: rgba(220,48,48,1)
-}
+
 #instructionImg{
     z-index: -1;
     position: absolute;
