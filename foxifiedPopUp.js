@@ -37,18 +37,7 @@ function init(){
 }
 function popUp(context){
     show(popUpBox);
-    setTimeout(function(){
-        switch(context){
-            case "nightly":
-                show(nightlyWarning);
-                break;
-            case "dev":
-                show(devWarning);
-                break;
-            case "beta" || "release" || "esr":
-                break;
-        }
-    }, 4050);
+
     button.addEventListener("click",function(){
         popUpBox.classList.add("full");
         hide(button);
