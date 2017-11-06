@@ -28,16 +28,16 @@
     position: fixed;
 }
 #close{
+    cursor: pointer;
     float: right;
     transition: transform 0.3s, filter 0.3s;
 }
 #close:hover{
-    cursor: pointer;
     transfrom: scale(0.9);
     filter: invert(100%);
 }
 #close:active{
-    transform: scale(0.6);
+    transform: scale(0.5);
 }
 .xCenter{
     position: relative;
@@ -134,9 +134,10 @@ Alternate code below
 }
 #nxt:hover{
     filter: invert(100%);
+    transform: translate(-50%,-52.5%);
 }
 #nxt:active{
-    transform: scale(1.2);
+    transform: translate(-50%,-52.5%) scale(1.2);
 }
 #devText, #nightlyText{
     display: none;
