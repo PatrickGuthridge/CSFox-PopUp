@@ -32,8 +32,6 @@ function popUp(){
     button.addEventListener("click",function(){
         popUpBox.classList.add("full");
         hide(button);
-        hide(nightlyWarning);
-        hide(devWarning);
         frontBlurb.classList.add("ftDown");
         setTimeout(function(){
             show(instructionImage[0]);
