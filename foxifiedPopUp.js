@@ -1,6 +1,4 @@
 var popUpBox;
-var nightlyWarning;
-var devWarning;
 var button;
 var instructionImage;
 var frontBlurb;
@@ -15,8 +13,6 @@ function hide(e){
 }
 function init(){
     popUpBox = document.querySelector("#csfxPopUp");
-    nightlyWarning = document.querySelector("#nightlyText");
-    devWarning = document.querySelector("#devText");
     button = document.querySelector("#nxt");
     instructionImage = [
         document.querySelector("#inst0"),
