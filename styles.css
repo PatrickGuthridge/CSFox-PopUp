@@ -139,6 +139,7 @@ Alternate code below
     filter: scale(1.2);
 }
 #devText, #nightlyText{
+    display: none;
     position: fixed;
     padding-right: 70px;
     padding-left: 70px;
