@@ -27,6 +27,9 @@
 #csfxLogo{
     position: fixed;
 }
+#close{
+    float: right;
+}
 .xCenter{
     position: relative;
     left: 50%;
