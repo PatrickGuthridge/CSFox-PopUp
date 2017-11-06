@@ -6,7 +6,9 @@ var instructionImage;
 var frontBlurb;
 function show(e){
     e.style.display = "unset";
-    e.style.opacity = 1;
+    setTimeout(function(){
+        e.style.opacity = 1;
+    }, 15);
 }
 function hide(e){
     e.style.opacity = 0;
