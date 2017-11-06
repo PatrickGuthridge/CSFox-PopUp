@@ -35,7 +35,7 @@ function init(){
     ];
     frontBlurb = document.querySelector("#frontText");
 }
-function popUp(context){
+function popUp(){
     show(popUpBox);
 
     button.addEventListener("click",function(){
