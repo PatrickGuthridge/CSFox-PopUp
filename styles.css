@@ -29,6 +29,15 @@
 }
 #close{
     float: right;
+    transition: scale 0.3s, invert 0.3s, background 0.5s;
+}
+#close:hover{
+    cursor: pointer;
+    transfrom: scale(0.9);
+    filter: invert(100%);
+}
+#close:active{
+    background-color: rgba(0,0,0,0.5);
 }
 .xCenter{
     position: relative;
@@ -116,12 +125,18 @@ Alternate code below
 }
 #nxt{
     animation: popUp 1s backwards 4.3s;
-    transition: opacity 1s;
+    transition: opacity 1s, filter 0.25s, scale 0.3s;
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     padding-top: 25px;
+}
+#nxt:hover{
+    filter: invert(100%);
+}
+#nxt:active{
+    filter: scale(0.9);
 }
 #devText, #nightlyText{
     position: fixed;
