@@ -37,7 +37,7 @@
     filter: invert(100%);
 }
 #close:active{
-    transform: scale(0.25);
+    transform: scale(0.6);
 }
 .xCenter{
     position: relative;
@@ -134,7 +134,7 @@ Alternate code below
 }
 #nxt:hover{
     filter: invert(100%);
-    transform: translate(-50%,-52.5%) scale(0.975);
+    transform: translate(-50%,-55%) scale(0.98);
 }
 #devText, #nightlyText{
     display: none;
