@@ -30,7 +30,7 @@
 #close{
     cursor: pointer;
     float: right;
-    transition: transform 0.3s, filter 0.3s;
+    transition: transform 0.175s, filter 0.3s;
 }
 #close:hover{
     transfrom: scale(0.9);
@@ -125,7 +125,7 @@ Alternate code below
 }
 #nxt{
     animation: popUp 1s backwards 4.3s;
-    transition: opacity 1s, filter 0.3s, transform 0.4s;
+    transition: opacity 1s, filter 0.3s, transform 0.25s;
     position: relative;
     left: 50%;
     top: 50%;
@@ -134,10 +134,7 @@ Alternate code below
 }
 #nxt:hover{
     filter: invert(100%);
-    transform: translate(-50%,-52.5%);
-}
-#nxt:active{
-    transform: translate(-50%,-52.5%) scale(1.2);
+    transform: translate(-50%,-52.5%) scale(0.85);
 }
 #devText, #nightlyText{
     display: none;
