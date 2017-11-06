@@ -67,7 +67,7 @@ function newTab(url){
     var tab = window.open(url, '_blank');
     tab.focus();
 }
-function closeDialog(){
+function closePopUp(){
     hide(popUpBox);
     setTimeout(function(){
         popUpBox.outerHTML = "";
